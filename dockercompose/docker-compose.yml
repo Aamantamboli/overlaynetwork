@@ -1,6 +1,6 @@
 services:          #default synxtax
   databasestudfirst:        #naming convention for container
-    build: /opt/student-employeeyml/student/Mysql/  #location of the docker file
+    build: /opt/overlaynetwork/student/Mysql/  #location of the docker file
     ports:     #port mapping my container to host port 
       - '3306:3306'  
     container_name: Databasestud  #providing name to container
