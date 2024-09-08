@@ -1,0 +1,7 @@
+ backendstudsecond: 
+    build: /opt/soverlaynetwork/student/Backendstud/    
+    ports:
+      - '8080:8080'        
+    container_name: Backendstud
+    network_mode:
+        overlay
